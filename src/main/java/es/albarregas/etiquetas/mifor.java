@@ -51,7 +51,7 @@ public class mifor extends TagSupport {
     public int doEndTag() throws JspException {
         Writer out = pageContext.getOut();
         try {
-            out.write("Hola este es mi imprimelistas");
+            out.write("************");
         } catch (IOException ex) {
             Logger.getLogger(mifor.class.getName()).log(Level.SEVERE, null, ex);
         }
