@@ -22,7 +22,7 @@
                 <td>&ltki:mifor></td><td>lista<br>separador</td><td>Imprime una lista de elementos separados con algun caracter<td><pre> &ltki:mifor lista="hola,mundo,este,es,mi,recorrelistas" separador=','/></pre></td><td> <ki:mifor lista="hola,mundo,este,es,mi,recorrelistas" separador=','/><br></td>
             </tr>
             <tr>
-                <td>&ltki:antiespacios></td><td>cadena</td><td>quita los espacios excesivos de una cadena</td><TD> &ltki:antiespacios cadena="              hola mundo, estoy      probando el antiespacios     "/></td><td> <ki:antiespacios cadena="              hola mundo, estoy      probando el antiespacios     "/></td>
+                <td>&ltki:antiespacios></td><td>cadena</td><td>quita los espacios excesivos de una cadena</td><TD> <pre>&ltki:antiespacios cadena="              hola mundo, estoy      probando el antiespacios     "/></pre></td><td> <ki:antiespacios cadena="              hola mundo, estoy      probando el antiespacios     "/></td>
             </tr>
             <tr>
                 <td>&ltki:reves></td><td>cadena</td><td>Imprime la cadena introducida al reves </td><td>&ltki:reves cadena="Enrique"/></td><td><ki:reves cadena="Enrique"/></td>
